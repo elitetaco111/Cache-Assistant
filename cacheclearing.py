@@ -1,6 +1,6 @@
 #Cache Clearing Assistant by Dave Nissly
 #1/28/2025
-#v1.0
+#v1.1
 import csv
 import string
 import math
