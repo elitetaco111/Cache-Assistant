@@ -24,7 +24,8 @@ Column 1 = #images to clear cache (aka tickled for AIR)
 **Data in columns beyond this will be ignored**
 
 Output Information:
-All results will be in a single column, with netsuite resources above cloudinary resources. Cloudinary Resources are in groups of 20
+Columns have headers describing whats in that Column
+Items with more than one image will go further to the right, ****EACH ROW CONTAINS ALL OF THE LINKS FOR A SINGLE ITEM****
 
 BugFixes:
 v1.1 - fixed missing first item per # of images (single image clearing works now)
