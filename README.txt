@@ -8,17 +8,17 @@
 Cache Clearing Assistant 1.1
 By Dave Nissly
 Created - 1/28/2025
-Last Update - 1/30/2025
+Last Update - 2/13/2025
 
 How to use:
-1. Drag csv file with the formatted data renamed to data.csv in this folder
+1. Drag csv file with the correctly formatted data renamed to data.csv in this folder
 2. Run cacheclearing.py
 3. Open output.csv for your cache clearing needs
 4. ???
 5. Profit
 
 Input Data Format: 
-No headers, no totals row at the bottom
+***Accounts for column headers, skips the first row in order to do this***
 Column 0 = name/sku
 Column 1 = #images to clear cache (aka tickled for AIR)
 **Data in columns beyond this will be ignored**

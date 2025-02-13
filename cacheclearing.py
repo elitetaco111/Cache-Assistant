@@ -17,10 +17,11 @@ line = []
 #open the file as csvfile
 with open("data.csv", "r") as csvfile:
     reader = csv.reader(csvfile)
+    next(reader) #skip over the column labels
     #iterate through and generate netsuite resources for each product
     #count of resources is equal to the number of images for each product
     for row in reader: 
-        iterations = int(row[1])
+        iterations = int(row[1]) #count of images to update 
         for i in range(iterations):
             s = "/assets/images/products/" + str(row[0]) + '-' + str(i+1) + ".jpg"
             line = []
